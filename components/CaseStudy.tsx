@@ -202,7 +202,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ slug, onBack }) => {
 
               {/* Related Stories */}
               <div className="pt-24 border-t border-black/5">
-                <h2 className="text-2xl font-bold mb-12 font-marketing">More Success Stories</h2>
+                <h2 className="text-2xl font-bold mb-12 font-marketing">More Case Studies</h2>
                 <div className="grid sm:grid-cols-1 gap-6">
                   {otherSlugs.map(otherSlug => (
                     <a 

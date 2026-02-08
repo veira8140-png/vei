@@ -30,7 +30,7 @@ export const HowItWorks: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="text-blue-600 font-bold text-sm tracking-widest uppercase font-neue">The Process</span>
+            <span className="text-[#531753] font-bold text-sm tracking-widest uppercase font-neue">The Process</span>
             <h2 className="text-4xl lg:text-5xl font-extrabold text-slate-900 mt-4 mb-8 font-marketing">How it works</h2>
             <p className="text-lg text-slate-600 mb-10 font-neue">
               Setup is fast and training is simple. Most shops are fully operational the same day our team arrives.
@@ -39,7 +39,7 @@ export const HowItWorks: React.FC = () => {
             <div className="space-y-12">
               {steps.map((step, idx) => (
                 <div key={idx} className="flex gap-6">
-                  <div className="flex-shrink-0 w-14 h-14 bg-emerald-100 rounded-2xl flex items-center justify-center text-emerald-600 font-bold text-xl font-neue">
+                  <div className="flex-shrink-0 w-14 h-14 bg-[#F8F9FA] border border-black/5 rounded-2xl flex items-center justify-center text-black font-bold text-xl font-neue shadow-sm">
                     {step.num}
                   </div>
                   <div>
@@ -52,11 +52,11 @@ export const HowItWorks: React.FC = () => {
           </div>
           
           <div className="relative h-[600px]">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-emerald-600 rounded-[60px] transform rotate-3 -z-10"></div>
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[#2C0D36] rounded-[60px] transform rotate-3 -z-10"></div>
             <img 
-              src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=1000" 
-              alt="Kenyan Shop Success" 
-              className="w-full h-full object-cover rounded-[60px] shadow-2xl relative z-10"
+              src="https://images.pexels.com/photos/5926238/pexels-photo-5926238.jpeg?auto=compress&cs=tinysrgb&w=1200" 
+              alt="Successful Kenyan Shop Owner" 
+              className="w-full h-full object-cover rounded-[60px] shadow-2xl relative z-10 grayscale hover:grayscale-0 transition-all duration-700"
             />
           </div>
         </div>

@@ -63,24 +63,24 @@ export const AIAgents: React.FC = () => {
       color: "bg-blue-600",
       whatDoes: [
         "Answers staff questions about products, pricing, and workflows",
-        "Helps new employees learn faster without constant supervision",
+        "Helps new employees at Sarit or Hub branches learn faster",
         "Responds to customer inquiries on WhatsApp and internal tools",
         "Explains alerts and issues raised by Tiri in simple language",
         "Reduces mistakes caused by misunderstanding or poor training"
       ],
       useCases: [
         {
-          title: "New cashier on day one",
-          problem: "A new staff member is unsure how to apply a discount or process a return.",
+          title: "New cashier at Sarit Centre branch",
+          problem: "A new staff member is unsure how to apply a discount or process an MPESA return.",
           solution: "Glenn guides them step by step through the interface, no manager needed."
         },
         {
-          title: "Staff confusion during rush hour",
+          title: "Rush hour at CBD shop",
           problem: "During peak hours, staff ask repetitive questions that slow down service.",
           solution: "Glenn answers instantly via the terminal, keeping the line moving."
         },
         {
-          title: "Owner unavailable",
+          title: "Owner away in Mombasa",
           problem: "The owner is away and a rare operational snag occurs.",
           solution: "Staff still get immediate technical support; operations do not stall."
         }
@@ -101,7 +101,7 @@ export const AIAgents: React.FC = () => {
       ],
       useCases: [
         {
-          title: "Dormant customers",
+          title: "Dormant customers in Kilimani",
           problem: "Regulars who haven't visited in 30 days are starting to drift away.",
           solution: "Achi sends a personalized WhatsApp offer that brings them back."
         },
@@ -111,7 +111,7 @@ export const AIAgents: React.FC = () => {
           solution: "Achi detects the lag and launches a targeted promotion to move stock."
         },
         {
-          title: "Lead follow up",
+          title: "Lead follow up after inquiry",
           problem: "A customer asks for a price list but leaves without buying.",
           solution: "Achi follows up politely 2 hours later, converting interest into a sale."
         }
@@ -129,7 +129,7 @@ export const AIAgents: React.FC = () => {
         "Tracks performance trends and identifies anomalies",
         "Detects fraud, theft, and suspicious behavior in real-time",
         "Monitors inventory movement and highlights shrinkage",
-        "Flags compliance risks before they become penalties"
+        "Flags KRA compliance risks before they become penalties"
       ],
       useCases: [
         {
@@ -148,7 +148,7 @@ export const AIAgents: React.FC = () => {
           solution: "Tiri alerts the owner exactly when and where the mismatch started."
         },
         {
-          title: "Staff manipulation",
+          title: "Staff manipulation of reversals",
           problem: "Repeated transaction reversals or unusual discounts are being applied.",
           solution: "Tiri identifies the pattern and raises a high-priority fraud alert."
         }

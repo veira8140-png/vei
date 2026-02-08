@@ -25,12 +25,12 @@ const stories = [
 
 export const SuccessStories: React.FC = () => {
   return (
-    <section id="stories" className="py-32 bg-white overflow-hidden">
+    <section id="case-studies" className="py-32 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-20 gap-8">
           <div className="max-w-2xl">
             <div className="w-12 h-1 bg-black mb-10"></div>
-            <h2 className="text-4xl lg:text-6xl font-bold font-marketing leading-tight">Success is measured in <span className="font-didot italic">certainty.</span></h2>
+            <h2 className="text-4xl lg:text-6xl font-bold font-marketing leading-tight">Retail <span className="font-didot italic">Case Studies.</span></h2>
           </div>
           <p className="text-black/40 font-neue lg:max-w-sm mb-2">See how retailers across Nairobi are using Veira to gain absolute control over their operations.</p>
         </div>

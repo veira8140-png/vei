@@ -16,20 +16,20 @@ export const Testimonials: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="p-10 bg-emerald-50 rounded-[40px] border border-emerald-100">
             <p className="text-xl text-slate-800 leading-relaxed italic mb-8 font-marketing">
-              "Since switching to Veira, I finally know how much my shop makes every day. MPESA and ETIMS just work, and I no longer spend hours on manual books."
+              "Since switching to Veira, I finally know exactly how much my shop in Mombasa makes every day. MPESA and ETIMS just work, and I no longer spend hours on manual books."
             </p>
             <div className="flex items-center gap-4">
               <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=150&h=150" alt="David Mwangi" className="w-14 h-14 rounded-full border-2 border-white shadow-md object-cover" />
               <div>
                 <h4 className="font-bold text-slate-900 font-neue">David Mwangi</h4>
-                <p className="text-sm text-slate-500 font-neue">Retailer, Mombasa</p>
+                <p className="text-sm text-slate-500 font-neue">Retailer, Nyali Mombasa</p>
               </div>
             </div>
           </div>
           
           <div className="p-10 bg-slate-50 rounded-[40px] border border-slate-100">
             <p className="text-xl text-slate-800 leading-relaxed italic mb-8 font-marketing">
-              "Veira helped me catch losses I didn't even know were happening. The reports are clear and simple, even for my staff who aren't tech-savvy."
+              "Veira helped me catch inventory losses I didn't even know were happening at my Kisumu branch. The reports are clear and simple, even for my staff who aren't tech-savvy."
             </p>
             <div className="flex items-center gap-4">
               <img src="https://images.unsplash.com/photo-1531123414780-f74242c2b052?auto=format&fit=crop&q=80&w=150&h=150" alt="Sarah Otieno" className="w-14 h-14 rounded-full border-2 border-white shadow-md object-cover" />

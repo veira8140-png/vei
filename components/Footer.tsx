@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
             <h4 className="font-bold text-black mb-10 uppercase text-[11px] tracking-[0.3em] font-neue">Solutions</h4>
             <ul className="space-y-5 text-black/50 font-normal text-[14px] font-neue ui-text">
               <li><a href="/#pos" className="hover:text-black transition-colors">Best POS System Kenya</a></li>
-              <li><a href="/#stories" className="hover:text-black transition-colors">Retail Success Stories</a></li>
+              <li><a href="/#case-studies" className="hover:text-black transition-colors">Retail Case Studies</a></li>
               <li><a href="/#cloud" className="hover:text-black transition-colors">Cloud POS Software Nairobi</a></li>
               <li><a href="/#ai-agents" className="hover:text-black transition-colors">AI Inventory Insights</a></li>
               <li><a href="/#enterprise" className="hover:text-black transition-colors">ETIMS Compliant Software</a></li>

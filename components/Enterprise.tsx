@@ -10,7 +10,7 @@ const Enterprise: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-bold text-black mb-8 max-w-5xl mx-auto leading-[1.1] font-marketing">
             Enterprise retail management <br/> 
-            <span className="font-didot italic font-bold">with absolute control.</span>
+            <span className="font-didot italic font-bold text-[#531753]">with absolute control.</span>
           </h1>
           <p className="text-lg lg:text-[20px] text-black/60 mb-12 max-w-3xl mx-auto font-normal leading-relaxed font-neue body-copy">
             Scale your retail business across Kenya with Veira. Our enterprise grade POS system offers centralized data fraud prevention and real time visibility across all branches.
@@ -117,17 +117,17 @@ const Enterprise: React.FC = () => {
                 {
                   title: "Executive Portal",
                   desc: "Global oversight predictive analytics and branch audit tools for leaders.",
-                  img: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=600"
+                  img: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&q=80&w=600"
                 },
                 {
                   title: "Staff Hub",
                   desc: "Simplified workflows with integrated support from Glenn AI Agent.",
-                  img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600"
+                  img: "https://images.pexels.com/photos/5926462/pexels-photo-5926462.jpeg?auto=compress&cs=tinysrgb&w=600"
                 },
                 {
                   title: "Partner App",
                   desc: "Manage supplier relationships and stock deliveries automatically.",
-                  img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=600"
+                  img: "https://images.pexels.com/photos/6169033/pexels-photo-6169033.jpeg?auto=compress&cs=tinysrgb&w=600"
                 }
               ].map((app, i) => (
                 <div key={i} className="bg-white rounded-[32px] overflow-hidden border border-black/5 hover:shadow-lg transition-all">

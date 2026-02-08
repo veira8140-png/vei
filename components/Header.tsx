@@ -40,7 +40,6 @@ export const Header: React.FC<HeaderProps> = ({ onLogoClick }) => {
           <nav className="hidden xl:flex items-center space-x-8 text-[14px] font-medium tracking-wide text-black/60 font-neue">
             <a href="/#pos" className="hover:text-black transition-colors">POS</a>
             <a href="/#ai-agents" className="hover:text-black transition-colors">Agents</a>
-            <a href="/#stories" className="hover:text-black transition-colors">Stories</a>
             <a href="/#cloud" className="hover:text-black transition-colors">Cloud</a>
             <a href="/#apps" className="hover:text-black transition-colors">Apps</a>
             <a href="/#enterprise" className="hover:text-black transition-colors">Enterprise</a>
@@ -63,7 +62,6 @@ export const Header: React.FC<HeaderProps> = ({ onLogoClick }) => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-2xl border-t border-black/5 p-6 flex flex-col space-y-6 animate-in fade-in slide-in-from-top-4">
           <a href="/#pos" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold text-black font-neue">POS</a>
           <a href="/#ai-agents" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold text-black font-neue">Agents</a>
-          <a href="/#stories" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold text-black font-neue">Stories</a>
           <a href="/#cloud" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold text-black font-neue">Cloud</a>
           <a href="/#apps" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold text-black font-neue">Apps</a>
           <a href="/#enterprise" onClick={() => setIsMenuOpen(false)} className="text-lg font-bold text-black font-neue">Enterprise</a>
