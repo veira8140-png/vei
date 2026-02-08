@@ -1,0 +1,8 @@
+{
+  "name": "Veira POS - Premium Kenyan Retail Solutions",
+  "description": "A high end premium website for Veira POS, the leading point of sale system in Kenya featuring MPESA integration, ETIMS compliance, and AI driven business insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
